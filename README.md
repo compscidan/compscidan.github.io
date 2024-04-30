@@ -9,3 +9,5 @@ Step 3 Write a script that calculates the order cost week 4
 
 Step 4 Make the menu appealing week 5
 
+Step 5 Work on overall website week 7
+
