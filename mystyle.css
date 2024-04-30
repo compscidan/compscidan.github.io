@@ -3,10 +3,11 @@ body {
    }
 
 button {
-    background-color: green;
+    background-color: lightgoldenrodyellow;
     width: 400px;
     margin: 100px;
     font-size: 60px;
+    text-color:  orange;
 }
 img {
     border-radius: 8px;
