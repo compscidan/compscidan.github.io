@@ -4,11 +4,11 @@ body {
    }
 
 button {
-    background-color: 
+    background-color: wheat;
     width: 400px;
     margin: 100px;
     font-size: 60px;
-    text-color:  orange;
+    text-decoration-color:  orange;
 }
 img {
     border-radius: 8px;
