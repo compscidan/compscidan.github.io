@@ -1,23 +1,38 @@
-<!DOCTYPE>
-</html>
+<!DOCTYPE html>
+<html>
 <head>
-        <title>menu</title>
-        <link href="mystyle.css" rel="stylesheet" type="text/css"/>
-        <script src="myscript.js"></script>
-</head>
-<head>
-        <style>
-        body {background-color: wheat;}
-        text {color: rgb(175, 104, 45)}
-        h1   {color: darkred;}
-        h2   {color: brown;}
-        h3   {color: red;}
-        button {background-color: green}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
 
-        </style>
-        </head>
-        <center>
-            <h1>Our story<h1>
-            <h2>Long ago in a land far far away, Massiomo Bottura a renowned italian chef</h2>
-           </center>
+.text-block {
+  position: absolute;
+  bottom: 75px;
+  right: 200px;
+  background-color: white;
+  color: darkred;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Text Blocks</h2>
+<p>How to place text blocks over an image:</p>
+
+<div class="container">
+  <img src="img_nature_wide.jpg" alt="Nature" style="width:100%;">
+  <div class="text-block">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+</body>
+</html> 
+
     
