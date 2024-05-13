@@ -1,0 +1,6 @@
+.maindiv {
+        background-color: #FF4433;
+        width: 600px;
+        margin: auto;
+        padding 30px;
+}
