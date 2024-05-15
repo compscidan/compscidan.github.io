@@ -1,6 +1,0 @@
-div {
-    background-color: #blue;
-    width: 600px;
-    margin: auto;
-    padding 30px;
-}
