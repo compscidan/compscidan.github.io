@@ -15,4 +15,7 @@ img {
     width: 300px;
     height: 300px;
 }
+h2 {
+    -webkit-text-fill-color: rgb(83, 13, 13) ;
+}
 
