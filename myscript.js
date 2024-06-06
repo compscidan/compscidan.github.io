@@ -20,7 +20,7 @@ function order() {
     
     let cost = (num_bruschetta * 5.99 + num_calamari * 7.99 + num_arancini * 11.99 + num_spaghetti * 10.99 + num_shrooms * 12.99 + num_carbonara * 11.99) * 1.03 ;
     // alert (cost);
-    // round(cost, 2);
+    round(cost, 2);
     alert( "Your order will cost $" + cost);
    
     } 
