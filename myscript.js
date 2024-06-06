@@ -36,7 +36,16 @@ function order() {
     let num_cheese = document.getElementById("Cheese").value;
     num_cheese = Number(num_cheese);
     
-    let cost = (num_bruschetta * 5.99 + num_calamari * 7.99 + num_arancini * 11.99 + num_ceasar * 6.99 + num_caprese * 6.99 + num_chopped * 6.99 + num_spaghetti * 10.99 + num_shrooms * 12.99 + num_carbonara * 11.99 + num_pepperoni * 12.99 + num_margherita * 11.99 + num_cheese * 10.99) * 1.03 ;
+    let num_tiramisu = document.getElementById("Tiramisu").value;
+    num_tiramisu = Number(num_tiramisu);
+
+    let num_cannoli = document.getElementById("Cannoli").value;
+    num_cannoli = Number(num_cannoli);
+
+    let num_cheesecake = document.getElementById("Cheesecake").value;
+    num_cheesecake = Number(num_cheesecake);
+
+    let cost = (num_bruschetta * 5.99 + num_calamari * 7.99 + num_arancini * 11.99 + num_ceasar * 6.99 + num_caprese * 6.99 + num_chopped * 6.99 + num_spaghetti * 10.99 + num_shrooms * 12.99 + num_carbonara * 11.99 + num_pepperoni * 12.99 + num_margherita * 11.99 + num_cheese * 10.99 + num_tiramisu * 8.99 + num_cannoli * 7.99 + num_cheesecake * 11.99) * 1.03 ;
     // alert (cost);
     // round(cost, 2);
     alert( "Your order will cost $" + cost);
